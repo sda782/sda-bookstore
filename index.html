@@ -27,7 +27,7 @@
                         <th>Function</th>
                     </tr>
                 </thead>
-                <tbody v-if="data != null">
+                <tbody id="booklist" v-if="data.length > 0">
                     <tr v-for="book in data">
                         <td>{{book.id}}</td>
                         <td>{{book.title}}</td>

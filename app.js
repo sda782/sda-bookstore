@@ -3,7 +3,7 @@ const baseURL = 'https://anbo-restbookquerystring.azurewebsites.net/api/Books'
 Vue.createApp({
     data() {
         return {
-            data: null,
+            data: [],
             book_object: {
                 id: 5,
                 title: null,
